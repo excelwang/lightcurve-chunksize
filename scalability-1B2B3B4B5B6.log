@@ -1,0 +1,1937 @@
+select sum(columnsize)/1024/1024/1024 from storage() where "table"='targets13';
++--------------------+
+| sql_div_sql_div_L1 |
++====================+
+|                792 |
++--------------------+
+1 tuple
+select sum(columnsize)/1024/1024/1024 from storage() where "table"='assoc13';
++--------------------+
+| sql_div_sql_div_L1 |
++====================+
+|                 15 |
++--------------------+
+1 tuple
+select max(imageid) from image13
++-------+
+| L1    |
++=======+
+| 28800 |
++-------+
+1 tuple
+Tue Sep  8 07:06:23 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 7200 targetid in assoc13.
+120.95
+source 1 has 7200 targetid in assoc13.
+1.78
+source 1 has 7200 targetid in assoc13.
+1.95
+source 1 has 7200 targetid in assoc13.
+2.04
+source 1 has 7200 targetid in assoc13.
+1.64
+Total: 5, min: 1.640, avg: 25.672, max: 120.950
+[mwan@stones14 gwac_pipeline]$ ./cold.sh 0 1
+cold run
+
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+941G    ../dbfarm
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md0        5.5T  1.6T  3.6T  31% /
+devtmpfs        126G     0  126G   0% /dev
+tmpfs           126G     0  126G   0% /dev/shm
+tmpfs           126G  904K  126G   1% /run
+tmpfs           126G     0  126G   0% /sys/fs/cgroup
+tmpfs           126G     0  126G   0% /tmp
+/dev/sdc2       917G   72M  871G   1% /data3
+/dev/sda3       917G   33G  839G   4% /data1
+/dev/sdb2       917G   72M  871G   1% /data2
+select sum(columnsize)/1024/1024/1024 from storage() where "table"='targets13';
++--------------------+
+| sql_div_sql_div_L1 |
++====================+
+|                792 |
++--------------------+
+1 tuple
+select sum(columnsize)/1024/1024/1024 from storage() where "table"='assoc13';
++--------------------+
+| sql_div_sql_div_L1 |
++====================+
+|                 15 |
++--------------------+
+1 tuple
+select max(imageid) from image13
++-------+
+| L1    |
++=======+
+| 28800 |
++-------+
+1 tuple
+Tue Sep  8 07:32:06 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 7200 targetid in assoc13.
+120.90
+source 1 has 7200 targetid in assoc13.
+2.02
+source 1 has 7200 targetid in assoc13.
+1.95
+source 1 has 7200 targetid in assoc13.
+1.73
+source 1 has 7200 targetid in assoc13.
+1.57
+Total: 5, min: 1.570, avg: 25.634, max: 120.900
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+941G    ../dbfarm
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md0        5.5T  1.6T  3.6T  31% /
+devtmpfs        126G     0  126G   0% /dev
+tmpfs           126G     0  126G   0% /dev/shm
+tmpfs           126G  936K  126G   1% /run
+tmpfs           126G     0  126G   0% /sys/fs/cgroup
+tmpfs           126G     0  126G   0% /tmp
+/dev/sdc2       917G   72M  871G   1% /data3
+/dev/sda3       917G   33G  839G   4% /data1
+/dev/sdb2       917G   72M  871G   1% /data2
+select sum(columnsize)/1024/1024/1024 from storage() where "table"='targets13';
++--------------------+
+| sql_div_sql_div_L1 |
++====================+
+|                792 |
++--------------------+
+1 tuple
+select sum(columnsize)/1024/1024/1024 from storage() where "table"='assoc13';
++--------------------+
+| sql_div_sql_div_L1 |
++====================+
+|                 15 |
++--------------------+
+1 tuple
+select max(imageid) from image13
++-------+
+| L1    |
++=======+
+| 28800 |
++-------+
+1 tuple
+Tue Sep  8 07:34:19 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 7200 targetid in assoc13.
+120.52
+source 1 has 7200 targetid in assoc13.
+1.60
+source 1 has 7200 targetid in assoc13.
+1.88
+source 1 has 7200 targetid in assoc13.
+1.78
+source 1 has 7200 targetid in assoc13.
+1.89
+Total: 5, min: 1.600, avg: 25.534, max: 120.520
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+941G    ../dbfarm
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md0        5.5T  1.6T  3.6T  31% /
+devtmpfs        126G     0  126G   0% /dev
+tmpfs           126G     0  126G   0% /dev/shm
+tmpfs           126G  936K  126G   1% /run
+tmpfs           126G     0  126G   0% /sys/fs/cgroup
+tmpfs           126G     0  126G   0% /tmp
+/dev/sdc2       917G   72M  871G   1% /data3
+/dev/sda3       917G   33G  839G   4% /data1
+/dev/sdb2       917G   72M  871G   1% /data2
+select sum(columnsize)/1024/1024/1024 from storage() where "table"='targets13';
++--------------------+
+| sql_div_sql_div_L1 |
++====================+
+|                792 |
++--------------------+
+1 tuple
+select sum(columnsize)/1024/1024/1024 from storage() where "table"='assoc13';
++--------------------+
+| sql_div_sql_div_L1 |
++====================+
+|                 15 |
++--------------------+
+1 tuple
+select max(imageid) from image13
++-------+
+| L1    |
++=======+
+| 28800 |
++-------+
+1 tuple
+Tue Sep  8 07:36:33 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 7200 targetid in assoc13.
+124.57
+source 1 has 7200 targetid in assoc13.
+2.68
+source 1 has 7200 targetid in assoc13.
+1.76
+source 1 has 7200 targetid in assoc13.
+1.76
+source 1 has 7200 targetid in assoc13.
+1.57
+Total: 5, min: 1.570, avg: 26.468, max: 124.570
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+941G    ../dbfarm
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md0        5.5T  1.6T  3.6T  31% /
+devtmpfs        126G     0  126G   0% /dev
+tmpfs           126G     0  126G   0% /dev/shm
+tmpfs           126G  936K  126G   1% /run
+tmpfs           126G     0  126G   0% /sys/fs/cgroup
+tmpfs           126G     0  126G   0% /tmp
+/dev/sdc2       917G   72M  871G   1% /data3
+/dev/sda3       917G   33G  839G   4% /data1
+/dev/sdb2       917G   72M  871G   1% /data2
+select sum(columnsize)/1024/1024/1024 from storage() where "table"='targets13';
++--------------------+
+| sql_div_sql_div_L1 |
++====================+
+|                792 |
++--------------------+
+1 tuple
+select sum(columnsize)/1024/1024/1024 from storage() where "table"='assoc13';
++--------------------+
+| sql_div_sql_div_L1 |
++====================+
+|                 15 |
++--------------------+
+1 tuple
+select max(imageid) from image13
++-------+
+| L1    |
++=======+
+| 28800 |
++-------+
+1 tuple
+Tue Sep  8 07:38:52 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 7200 targetid in assoc13.
+120.32
+source 1 has 7200 targetid in assoc13.
+1.64
+source 1 has 7200 targetid in assoc13.
+2.21
+source 1 has 7200 targetid in assoc13.
+1.99
+source 1 has 7200 targetid in assoc13.
+1.66
+Total: 5, min: 1.640, avg: 25.564, max: 120.320
+
+hot runs
+2
+Total: 6, min: 0.660, avg: 39.750, max: 234.930
+Tue Sep  8 08:18:07 CEST 2015
+./lighttest-assoc.sh 0
+disable mitosis optimizer pipe
+source 1000 has 7200 targetid in assoc13.
+0.71
+disable mitosis optimizer pipe
+source 1000 has 7200 targetid in assoc13.
+0.65
+disable mitosis optimizer pipe
+source 1000 has 7200 targetid in assoc13.
+0.85
+disable mitosis optimizer pipe
+source 1000 has 7200 targetid in assoc13.
+0.69
+disable mitosis optimizer pipe
+source 1000 has 7200 targetid in assoc13.
+0.67
+disable mitosis optimizer pipe
+source 1000 has 7200 targetid in assoc13.
+0.66
+3
+Total: 6, min: 0.650, avg: 0.705, max: 0.850
+
+=============================================================
+3B
+sql>[mwan@stones14 gwac_pipeline]$ ./cold.sh
+cold run
+
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+^Z
+[1]+  Stopped                 ./cold.sh
+[mwan@stones14 gwac_pipeline]$
+[mwan@stones14 gwac_pipeline]$
+[mwan@stones14 gwac_pipeline]$ fg
+./cold.sh
+             total       used       free     shared    buffers     cached
+Mem:           251         13        238          0          0         10
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+973G    ../dbfarm
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md0        5.5T  1.7T  3.5T  33% /
+devtmpfs        126G     0  126G   0% /dev
+tmpfs           126G     0  126G   0% /dev/shm
+tmpfs           126G  936K  126G   1% /run
+tmpfs           126G     0  126G   0% /sys/fs/cgroup
+tmpfs           126G     0  126G   0% /tmp
+/dev/sdc2       917G   72M  871G   1% /data3
+/dev/sda3       917G   33G  839G   4% /data1
+/dev/sdb2       917G   72M  871G   1% /data2
+select sum(columnsize)/1024/1024/1024 from storage() where "table"='targets13';
++--------------------+
+| sql_div_sql_div_L1 |
++====================+
+|                792 |
++--------------------+
+1 tuple
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 3000000000 |
++------------+
+1 tuple
+select max(imageid) from image13
++-------+
+| L1    |
++=======+
+| 28800 |
++-------+
+1 tuple
+Tue Sep  8 10:35:41 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 12000 targetid in assoc13.
+251.65
+source 1 has 12000 targetid in assoc13.
+4.31
+source 1 has 12000 targetid in assoc13.
+3.69
+source 1 has 12000 targetid in assoc13.
+4.64
+source 1 has 12000 targetid in assoc13.
+3.60
+source 1 has 12000 targetid in assoc13.
+4.49
+Total: 6, min: 3.600, avg: 45.397, max: 251.650
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+973G    ../dbfarm
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md0        5.5T  1.7T  3.5T  33% /
+devtmpfs        126G     0  126G   0% /dev
+tmpfs           126G     0  126G   0% /dev/shm
+tmpfs           126G  936K  126G   1% /run
+tmpfs           126G     0  126G   0% /sys/fs/cgroup
+tmpfs           126G     0  126G   0% /tmp
+/dev/sdc2       917G   72M  871G   1% /data3
+/dev/sda3       917G   33G  839G   4% /data1
+/dev/sdb2       917G   72M  871G   1% /data2
+select sum(columnsize)/1024/1024/1024 from storage() where "table"='targets13';
++--------------------+
+| sql_div_sql_div_L1 |
++====================+
+|                792 |
++--------------------+
+1 tuple
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 3000000000 |
++------------+
+1 tuple
+select max(imageid) from image13
++-------+
+| L1    |
++=======+
+| 28800 |
++-------+
+1 tuple
+Tue Sep  8 10:40:22 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 12000 targetid in assoc13.
+249.96
+source 1 has 12000 targetid in assoc13.
+5.81
+source 1 has 12000 targetid in assoc13.
+5.37
+source 1 has 12000 targetid in assoc13.
+3.64
+source 1 has 12000 targetid in assoc13.
+3.66
+source 1 has 12000 targetid in assoc13.
+4.77
+Total: 6, min: 3.640, avg: 45.535, max: 249.960
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+973G    ../dbfarm
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md0        5.5T  1.7T  3.5T  33% /
+devtmpfs        126G     0  126G   0% /dev
+tmpfs           126G     0  126G   0% /dev/shm
+tmpfs           126G  936K  126G   1% /run
+tmpfs           126G     0  126G   0% /sys/fs/cgroup
+tmpfs           126G     0  126G   0% /tmp
+/dev/sdc2       917G   72M  871G   1% /data3
+/dev/sda3       917G   33G  839G   4% /data1
+/dev/sdb2       917G   72M  871G   1% /data2
+select sum(columnsize)/1024/1024/1024 from storage() where "table"='targets13';
++--------------------+
+| sql_div_sql_div_L1 |
++====================+
+|                792 |
++--------------------+
+1 tuple
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 3000000000 |
++------------+
+1 tuple
+select max(imageid) from image13
++-------+
+| L1    |
++=======+
+| 28800 |
++-------+
+1 tuple
+Tue Sep  8 10:45:04 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 12000 targetid in assoc13.
+252.38
+source 1 has 12000 targetid in assoc13.
+4.14
+source 1 has 12000 targetid in assoc13.
+4.29
+source 1 has 12000 targetid in assoc13.
+4.05
+source 1 has 12000 targetid in assoc13.
+3.74
+source 1 has 12000 targetid in assoc13.
+3.82
+Total: 6, min: 3.740, avg: 45.403, max: 252.380
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+973G    ../dbfarm
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md0        5.5T  1.7T  3.5T  33% /
+devtmpfs        126G     0  126G   0% /dev
+tmpfs           126G     0  126G   0% /dev/shm
+tmpfs           126G  936K  126G   1% /run
+tmpfs           126G     0  126G   0% /sys/fs/cgroup
+tmpfs           126G     0  126G   0% /tmp
+/dev/sdc2       917G   72M  871G   1% /data3
+/dev/sda3       917G   33G  839G   4% /data1
+/dev/sdb2       917G   72M  871G   1% /data2
+select sum(columnsize)/1024/1024/1024 from storage() where "table"='targets13';
++--------------------+
+| sql_div_sql_div_L1 |
++====================+
+|                792 |
++--------------------+
+1 tuple
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 3000000000 |
++------------+
+1 tuple
+select max(imageid) from image13
++-------+
+| L1    |
++=======+
+| 28800 |
++-------+
+1 tuple
+Tue Sep  8 10:49:45 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 12000 targetid in assoc13.
+253.09
+source 1 has 12000 targetid in assoc13.
+4.23
+source 1 has 12000 targetid in assoc13.
+4.02
+source 1 has 12000 targetid in assoc13.
+3.91
+source 1 has 12000 targetid in assoc13.
+3.93
+source 1 has 12000 targetid in assoc13.
+3.71
+Total: 6, min: 3.710, avg: 45.482, max: 253.090
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+starting database 'gwacdb'... done
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 3000000000 |
++------------+
+1 tuple
+Tue Sep  8 10:54:28 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 12000 targetid in assoc13.
+251.36
+source 1 has 12000 targetid in assoc13.
+4.84
+source 1 has 12000 targetid in assoc13.
+3.56
+source 1 has 12000 targetid in assoc13.
+3.50
+source 1 has 12000 targetid in assoc13.
+4.68
+source 1 has 12000 targetid in assoc13.
+5.23
+Total: 6, min: 3.500, avg: 45.528, max: 251.360
+251.65
+249.96
+252.38
+253.09
+251.36
+ r -k1 mean tmp
+[1] 251.688
+===============================================================
+4B
+[mwan@stones14 gwac_pipeline]$ ./cold.sh
+cold run
+
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 4000000000 |
++------------+
+1 tuple
+Wed Sep  9 04:10:33 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 16800 targetid in assoc13.
+368.63
+source 1 has 16800 targetid in assoc13.
+4.51
+source 1 has 16800 targetid in assoc13.
+4.29
+source 1 has 16800 targetid in assoc13.
+4.30
+source 1 has 16800 targetid in assoc13.
+5.18
+source 1 has 16800 targetid in assoc13.
+5.03
+Total: 6, min: 4.290, avg: 65.323, max: 368.630
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 4000000000 |
++------------+
+1 tuple
+Wed Sep  9 04:17:14 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 16800 targetid in assoc13.
+374.81
+source 1 has 16800 targetid in assoc13.
+5.21
+source 1 has 16800 targetid in assoc13.
+4.40
+source 1 has 16800 targetid in assoc13.
+4.51
+source 1 has 16800 targetid in assoc13.
+5.16
+source 1 has 16800 targetid in assoc13.
+4.80
+Total: 6, min: 4.400, avg: 66.482, max: 374.810
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 4000000000 |
++------------+
+1 tuple
+Wed Sep  9 04:24:03 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 16800 targetid in assoc13.
+371.21
+source 1 has 16800 targetid in assoc13.
+5.05
+source 1 has 16800 targetid in assoc13.
+4.31
+source 1 has 16800 targetid in assoc13.
+5.17
+source 1 has 16800 targetid in assoc13.
+4.80
+source 1 has 16800 targetid in assoc13.
+4.81
+Total: 6, min: 4.310, avg: 65.892, max: 371.210
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 4000000000 |
++------------+
+1 tuple
+Wed Sep  9 04:30:47 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 16800 targetid in assoc13.
+385.55
+source 1 has 16800 targetid in assoc13.
+6.47
+source 1 has 16800 targetid in assoc13.
+4.89
+source 1 has 16800 targetid in assoc13.
+6.04
+source 1 has 16800 targetid in assoc13.
+4.80
+source 1 has 16800 targetid in assoc13.
+6.10
+Total: 6, min: 4.800, avg: 68.975, max: 385.550
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 4000000000 |
++------------+
+1 tuple
+Wed Sep  9 04:37:51 CEST 2015
+./lighttest-assoc.sh 1
+source 1 has 16800 targetid in assoc13.
+373.18
+source 1 has 16800 targetid in assoc13.
+4.49
+source 1 has 16800 targetid in assoc13.
+4.31
+source 1 has 16800 targetid in assoc13.
+5.10
+source 1 has 16800 targetid in assoc13.
+4.85
+source 1 has 16800 targetid in assoc13.
+4.50
+Total: 6, min: 4.310, avg: 66.072, max: 373.180
+[mwan@stones14 gwac_pipeline]$ ./hot.sh
+vm.swappiness = 0
+hot runs
+1
+Wed Sep  9 04:56:21 CEST 2015
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+0.85
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+0.61
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+0.52
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+0.55
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+0.51
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+0.50
+2
+Total: 6, min: 0.500, avg: 0.590, max: 0.850
+============================================================================
+5B
+[mwan@stones15 gwac_pipeline]$ ./cold.sh
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc14;
++------------+
+| L1         |
++============+
+| 5000000000 |
++------------+
+1 tuple
+Wed Sep  9 04:59:04 CEST 2015
+
+cold run
+source 1 has 16800 targetid in assoc14.
+419.71
+
+hot runs
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+26.58
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+7.29
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.02
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+5.83
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+5.55
+Total: 5, min: 5.550, avg: 10.254, max: 26.580
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc14;
++------------+
+| L1         |
++============+
+| 5000000000 |
++------------+
+1 tuple
+Wed Sep  9 05:07:06 CEST 2015
+
+cold run
+source 1 has 16800 targetid in assoc14.
+415.32
+
+hot runs
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+23.82
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+5.39
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+5.34
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+5.44
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+5.23
+Total: 5, min: 5.230, avg: 9.044, max: 23.820
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc14;
++------------+
+| L1         |
++============+
+| 5000000000 |
++------------+
+1 tuple
+Wed Sep  9 05:14:57 CEST 2015
+
+cold run
+source 1 has 16800 targetid in assoc14.
+415.79
+
+hot runs
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+23.91
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+5.36
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.40
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+5.95
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+5.85
+Total: 5, min: 5.360, avg: 9.494, max: 23.910
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc14;
++------------+
+| L1         |
++============+
+| 5000000000 |
++------------+
+1 tuple
+Wed Sep  9 05:22:52 CEST 2015
+
+cold run
+source 1 has 16800 targetid in assoc14.
+419.40
+
+hot runs
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+29.22
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.05
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.00
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.05
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.06
+Total: 5, min: 6.000, avg: 10.676, max: 29.220
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc14;
++------------+
+| L1         |
++============+
+| 5000000000 |
++------------+
+1 tuple
+Wed Sep  9 05:30:55 CEST 2015
+
+cold run
+source 1 has 16800 targetid in assoc14.
+416.66
+
+hot runs
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+23.89
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.42
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.00
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.05
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.37
+Total: 5, min: 6.000, avg: 9.746, max: 23.890
+419.71
+415.32
+415.79
+419.40
+416.66
+[mwan@stones14 gwac_pipeline]$ r -k1 mean temp
+[1] 417.376
+[mwan@stones15 gwac_pipeline]$ ./hot.sh
+vm.swappiness = 0
+hot runs
+1
+Wed Sep  9 07:30:45 CEST 2015
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.25
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+5.98
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.45
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.07
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.25
+2
+Total: 5, min: 5.980, avg: 6.200, max: 6.450
+Wed Sep  9 07:31:16 CEST 2015
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+5.87
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+5.92
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+5.91
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+6.09
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc14.
+5.96
+Total: 5, min: 5.870, avg: 5.950, max: 6.090
+--------------------------------------------------------------
+5B on stones14
+sql>[mwan@stones14 gwac_pipeline]$ ./cold.sh
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 5000000000 |
++------------+
+1 tuple
+Wed Sep  9 09:30:30 CEST 2015
+
+cold run
+source 1 has 16800 targetid in assoc13.
+390.63
+
+hot runs
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+24.73
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.91
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.00
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.81
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.21
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.17
+Total: 6, min: 6.000, avg: 9.472, max: 24.730
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 5000000000 |
++------------+
+1 tuple
+Wed Sep  9 09:38:08 CEST 2015
+
+cold run
+source 1 has 16800 targetid in assoc13.
+388.01
+
+hot runs
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+25.22
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+5.93
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.12
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+5.90
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+5.97
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.53
+Total: 6, min: 5.900, avg: 9.278, max: 25.220
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 5000000000 |
++------------+
+1 tuple
+Wed Sep  9 09:45:42 CEST 2015
+
+cold run
+source 1 has 16800 targetid in assoc13.
+388.29
+
+hot runs
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+25.24
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.98
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.07
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+5.87
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+5.92
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+5.95
+Total: 6, min: 5.870, avg: 9.338, max: 25.240
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 5000000000 |
++------------+
+1 tuple
+Wed Sep  9 09:53:17 CEST 2015
+
+cold run
+source 1 has 16800 targetid in assoc13.
+392.57
+
+hot runs
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+31.19
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+8.02
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+5.52
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+7.66
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+7.74
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+5.35
+Total: 6, min: 5.350, avg: 10.913, max: 31.190
+[mwan@stones14 gwac_pipeline]$ grep -A 2 "cold run" tmp |grep -o "[0-9]\{3,5\}\.[0-9]\{2\}*"
+390.63
+388.01
+388.29
+392.57
+[mwan@stones14 gwac_pipeline]$ vi temp
+[mwan@stones14 gwac_pipeline]$ r -k1 mean temp
+[1] 389.875
+49
+Total: 6, min: 4.560, avg: 4.638, max: 4.750
+Wed Sep  9 12:34:54 CEST 2015
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+4.65
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+4.42
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+4.77
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+4.58
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+4.52
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+4.60
+50
+Total: 6, min: 4.420, avg: 4.590, max: 4.770
+
+
+[mwan@stones14 gwac_pipeline]$ ./cold.sh
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 5040000000 |
++------------+
+1 tuple
+Fri Sep 11 03:52:45 CEST 2015
+
+cold run
+disable mitosis optimizer pipe
+source 24434 has 16800 targetid in assoc13.
+327.35
+warm up
+disable mitosis optimizer pipe
+source 5636 has 16800 targetid in assoc13.
+6.06
+disable mitosis optimizer pipe
+source 4208 has 16800 targetid in assoc13.
+5.79
+disable mitosis optimizer pipe
+source 26908 has 16800 targetid in assoc13.
+5.85
+disable mitosis optimizer pipe
+source 23450 has 16800 targetid in assoc13.
+7.17
+disable mitosis optimizer pipe
+source 27709 has 16800 targetid in assoc13.
+6.15
+disable mitosis optimizer pipe
+source 6792 has 16800 targetid in assoc13.
+6.56
+
+hot runs
+Total: 6, min: 5.790, avg: 6.263, max: 7.170
+disable mitosis optimizer pipe
+source 1837 has 16800 targetid in assoc13.
+6.23
+disable mitosis optimizer pipe
+source 21197 has 16800 targetid in assoc13.
+6.39
+disable mitosis optimizer pipe
+source 8590 has 16800 targetid in assoc13.
+6.47
+disable mitosis optimizer pipe
+source 30135 has 16800 targetid in assoc13.
+6.33
+disable mitosis optimizer pipe
+source 31670 has 16800 targetid in assoc13.
+6.24
+disable mitosis optimizer pipe
+source 8348 has 16800 targetid in assoc13.
+6.09
+Total: 6, min: 6.090, avg: 6.292, max: 6.470
+[mwan@stones14 gwac_pipeline]$
+[mwan@stones14 gwac_pipeline]$ vi cold.sh
+[mwan@stones14 gwac_pipeline]$
+[mwan@stones14 gwac_pipeline]$
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 5040000000 |
++------------+
+1 tuple
+Thu Sep 10 14:01:57 CEST 2015
+
+cold run
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+327.37
+warm up
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.79
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+5.84
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.22
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.20
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.15
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.35
+
+hot runs
+Total: 6, min: 5.840, avg: 6.258, max: 6.790
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+5.93
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.04
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.04
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.39
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.08
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+5.92
+Total: 6, min: 5.920, avg: 6.067, max: 6.390
+
+
+cold run with mitosis and uid=random.
+[mwan@stones14 gwac_pipeline]$ ./cold.sh
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 5040000000 |
++------------+
+1 tuple
+Fri Sep 11 04:11:18 CEST 2015
+
+cold run
+source 24873 has 16800 targetid in assoc13.
+1319.67
+
+warm up
+disable mitosis optimizer pipe
+source 21086 has 16800 targetid in assoc13.
+2.32
+disable mitosis optimizer pipe
+source 17611 has 16800 targetid in assoc13.
+1.41
+disable mitosis optimizer pipe
+source 7775 has 16800 targetid in assoc13.
+1.26
+disable mitosis optimizer pipe
+source 6442 has 16800 targetid in assoc13.
+1.28
+disable mitosis optimizer pipe
+source 20735 has 16800 targetid in assoc13.
+1.21
+disable mitosis optimizer pipe
+source 13769 has 16800 targetid in assoc13.
+1.31
+
+hot runs
+Total: 6, min: 1.210, avg: 1.465, max: 2.320
+disable mitosis optimizer pipe
+source 2491 has 16800 targetid in assoc13.
+1.25
+disable mitosis optimizer pipe
+source 28959 has 16800 targetid in assoc13.
+1.32
+disable mitosis optimizer pipe
+source 14646 has 16800 targetid in assoc13.
+1.39
+disable mitosis optimizer pipe
+source 11431 has 16800 targetid in assoc13.
+1.28
+disable mitosis optimizer pipe
+source 7276 has 16800 targetid in assoc13.
+1.21
+disable mitosis optimizer pipe
+source 6926 has 16800 targetid in assoc13.
+1.27
+Total: 6, min: 1.210, avg: 1.287, max: 1.390
+
+cold run with mitosis and uid=1.
+cold run
+source 1 has 16800 targetid in assoc13.
+1323.34
+
+warm up
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+14.15
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+6.19
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+5.51
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+7.77
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+9.60
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+5.15
+
+hot runs
+Total: 6, min: 5.150, avg: 8.062, max: 14.150
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+4.09
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+1.63
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+1.87
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+1.01
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+0.91
+disable mitosis optimizer pipe
+source 1 has 16800 targetid in assoc13.
+0.97
+Total: 6, min: 0.910, avg: 1.747, max: 4.090
+=============================================================
+6B
+[mwan@stones14 gwac_pipeline]$ ./cold.sh
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc13;
++------------+
+| L1         |
++============+
+| 6000000000 |
++------------+
+1 tuple
+Fri Sep 11 07:52:09 CEST 2015
+first run: RANDOM uid.
+cold run mitosis
+source 14038 has 19200 targetid in assoc13.
+1185.71
+
+warm up no-mitosis
+disable mitosis optimizer pipe
+source 17718 has 19200 targetid in assoc13.
+8.81
+disable mitosis optimizer pipe
+source 5251 has 19200 targetid in assoc13.
+1.42
+disable mitosis optimizer pipe
+source 22817 has 19200 targetid in assoc13.
+1.36
+disable mitosis optimizer pipe
+source 8423 has 19200 targetid in assoc13.
+1.59
+disable mitosis optimizer pipe
+source 21428 has 19200 targetid in assoc13.
+1.40
+disable mitosis optimizer pipe
+source 29789 has 19200 targetid in assoc13.
+1.39
+
+hot runs no-mitosis
+Total: 6, min: 1.360, avg: 2.662, max: 8.810
+disable mitosis optimizer pipe
+source 27694 has 19200 targetid in assoc13.
+1.35
+disable mitosis optimizer pipe
+source 29188 has 19200 targetid in assoc13.
+1.33
+disable mitosis optimizer pipe
+source 8730 has 19200 targetid in assoc13.
+1.32
+disable mitosis optimizer pipe
+source 5844 has 19200 targetid in assoc13.
+1.37
+disable mitosis optimizer pipe
+source 30424 has 19200 targetid in assoc13.
+1.35
+disable mitosis optimizer pipe
+source 29226 has 19200 targetid in assoc13.
+0.92
+Total: 6, min: 0.920, avg: 1.273, max: 1.370
+
+2nd run: uid=1 and cold mitosis.
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+starting database 'gwacdb'... done
+Fri Sep 11 09:36:22 CEST 2015
+cold run MTS
+
+source 1 has 19200 targetid in assoc13.
+1438.99
+
+warm up no-MTS
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+11.74
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+5.11
+
+hot runs no-MTS
+Total: 2, min: 5.110, avg: 8.425, max: 11.740
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+5.04
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+4.54
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+5.88
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+8.04
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+6.16
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+7.60
+
+3nd run: RANDOM uid and cold no-mitosis.
+Total: 6, min: 4.540, avg: 6.210, max: 8.040
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+starting database 'gwacdb'... done
+Fri Sep 11 10:01:40 CEST 2015
+
+cold run no-MTS
+disable mitosis optimizer pipe
+source 27656 has 19200 targetid in assoc13.
+354.34
+
+warm up no-MTS
+disable mitosis optimizer pipe
+source 1379 has 19200 targetid in assoc13.
+8.77
+disable mitosis optimizer pipe
+source 11587 has 19200 targetid in assoc13.
+7.52
+
+hot runs no-MTS
+Total: 2, min: 7.520, avg: 8.145, max: 8.770
+disable mitosis optimizer pipe
+source 27365 has 19200 targetid in assoc13.
+7.54
+disable mitosis optimizer pipe
+source 8442 has 19200 targetid in assoc13.
+8.21
+disable mitosis optimizer pipe
+source 9823 has 19200 targetid in assoc13.
+7.72
+disable mitosis optimizer pipe
+source 24043 has 19200 targetid in assoc13.
+7.36
+disable mitosis optimizer pipe
+source 10194 has 19200 targetid in assoc13.
+8.28
+disable mitosis optimizer pipe
+source 21013 has 19200 targetid in assoc13.
+8.53
+Total: 6, min: 7.360, avg: 7.940, max: 8.530
+
+4nd run: uid=1 and cold no-mitosis.
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+starting database 'gwacdb'... done
+Fri Sep 11 11:02:26 CEST 2015
+
+cold run no-MTS
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+356.33
+
+warm up no-MTS
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+6.27
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+6.05
+
+hot runs no-MTS
+Total: 2, min: 6.050, avg: 6.160, max: 6.270
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+6.16
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+7.52
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+7.53
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+7.18
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+6.96
+disable mitosis optimizer pipe
+source 1 has 19200 targetid in assoc13.
+7.00
+Total: 6, min: 6.160, avg: 7.058, max: 7.530
+=============================================================================
+[mwan@stones14 gwac_pipeline]$ ./cold.sh
+1st run: RANDOM uid and cold no-mitosis.
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+starting database 'gwacdb'... done
+Sat Sep 12 07:59:48 CEST 2015
+
+cold run no-MTS
+disable mitosis optimizer pipe
+source 16683 has 28800 targetid in assoc13.
+504.82
+
+warm up no-MTS
+disable mitosis optimizer pipe
+source 26939 has 28800 targetid in assoc13.
+454.26
+disable mitosis optimizer pipe
+source 14000 has 28800 targetid in assoc13.
+541.93
+Total: 2, min: 454.260, avg: 498.095, max: 541.930
+
+hot runs no-MTS
+disable mitosis optimizer pipe
+source 30451 has 28800 targetid in assoc13.
+322.05
+disable mitosis optimizer pipe
+source 24784 has 28800 targetid in assoc13.
+297.62
+disable mitosis optimizer pipe
+source 13794 has 28800 targetid in assoc13.
+241.66
+disable mitosis optimizer pipe
+source 17939 has 28800 targetid in assoc13.
+59.02
+disable mitosis optimizer pipe
+source 7280 has 28800 targetid in assoc13.
+16.39
+disable mitosis optimizer pipe
+source 9269 has 28800 targetid in assoc13.
+14.35
+Total: 6, min: 14.350, avg: 158.515, max: 322.050
+
+2nd run: uid=1 and cold no-mitosis.
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+starting database 'gwacdb'... done
+Sat Sep 12 08:40:58 CEST 2015
+
+cold run no-MTS
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+503.09
+
+warm up no-MTS
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+67.01
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+14.40
+
+hot runs no-MTS
+Total: 2, min: 14.400, avg: 40.705, max: 67.010
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+21.25
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+18.92
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+15.27
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+16.13
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+20.25
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+13.22
+Total: 6, min: 13.220, avg: 17.507, max: 21.250
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+select count(*) from assoc13;
++-------------+
+| L1          |
++=============+
+| 12240000000 |
++-------------+
+1 tuple
+Sat Sep 12 08:52:43 CEST 2015
+3rd run: RANDOM uid and cold mitosis.
+cold run mitosis
+source 31006 has 28800 targetid in assoc13.
+1963.98
+
+warm up no-mitosis
+disable mitosis optimizer pipe
+source 4814 has 28800 targetid in assoc13.
+19.91
+disable mitosis optimizer pipe
+source 20027 has 28800 targetid in assoc13.
+1.94
+
+hot runs no-mitosis
+Total: 2, min: 1.940, avg: 10.925, max: 19.910
+disable mitosis optimizer pipe
+source 27749 has 28800 targetid in assoc13.
+1.88
+disable mitosis optimizer pipe
+source 24343 has 28800 targetid in assoc13.
+1.82
+disable mitosis optimizer pipe
+source 29365 has 28800 targetid in assoc13.
+2.11
+disable mitosis optimizer pipe
+source 21009 has 28800 targetid in assoc13.
+2.11
+disable mitosis optimizer pipe
+source 30148 has 28800 targetid in assoc13.
+2.09
+disable mitosis optimizer pipe
+source 14061 has 28800 targetid in assoc13.
+1.97
+Total: 6, min: 1.820, avg: 1.997, max: 2.110
+
+4th run: uid=1 and cold mitosis.
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+starting database 'gwacdb'... done
+Sat Sep 12 09:26:26 CEST 2015
+
+cold run MTS
+source 1 has 28800 targetid in assoc13.
+2073.73
+
+warm up no-MTS
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+2.48
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+1.16
+
+hot runs no-MTS
+Total: 2, min: 1.160, avg: 1.820, max: 2.480
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+1.26
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+1.27
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+1.12
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+1.16
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+1.16
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+1.14
+Total: 6, min: 1.120, avg: 1.185, max: 1.270
+
+[mwan@stones14 gwac_pipeline]$ ./cold.sh
+select count(*) from assoc13;
++-------------+
+| L1          |
++=============+
+| 12240000000 |
++-------------+
+1 tuple
+
+1st run: uid=1 and cold no-mitosis.
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+starting database 'gwacdb'... done
+Sat Sep 12 10:16:09 CEST 2015
+
+cold run no-MTS
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+502.94
+
+warm up no-MTS
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+378.65
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+33.60
+
+hot runs no-MTS
+Total: 2, min: 33.600, avg: 206.125, max: 378.650
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+14.37
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+14.95
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+15.64
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+14.12
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+14.29
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+14.61
+2nd run: RANDOM uid and cold no-mitosis.
+Total: 6, min: 14.120, avg: 14.663, max: 15.640
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+starting database 'gwacdb'... done
+Sat Sep 12 10:33:06 CEST 2015
+
+cold run no-MTS
+disable mitosis optimizer pipe
+source 14027 has 28800 targetid in assoc13.
+508.90
+
+warm up no-MTS
+disable mitosis optimizer pipe
+source 25762 has 28800 targetid in assoc13.
+328.53
+disable mitosis optimizer pipe
+source 26278 has 28800 targetid in assoc13.
+382.74
+
+hot runs no-MTS
+Total: 2, min: 328.530, avg: 355.635, max: 382.740
+disable mitosis optimizer pipe
+source 14780 has 28800 targetid in assoc13.
+71.50
+disable mitosis optimizer pipe
+source 32295 has 28800 targetid in assoc13.
+343.43
+disable mitosis optimizer pipe
+source 26576 has 28800 targetid in assoc13.
+391.94
+disable mitosis optimizer pipe
+source 8567 has 28800 targetid in assoc13.
+396.98
+disable mitosis optimizer pipe
+source 13216 has 28800 targetid in assoc13.
+370.10
+disable mitosis optimizer pipe
+source 166 has 28800 targetid in assoc13.
+375.82
+
+3rd run: RANDOM uid and cold mitosis.
+Total: 6, min: 71.500, avg: 324.962, max: 396.980
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+             total       used       free     shared    buffers     cached
+Mem:           251          2        249          0          0          0
+-/+ buffers/cache:          2        249
+Swap:           31          0         31
+starting database 'gwacdb'... done
+Sat Sep 12 11:26:15 CEST 2015
+cold run mitosis
+source 26216 has 28800 targetid in assoc13.
+2053.44
+
+warm up no-mitosis
+disable mitosis optimizer pipe
+source 5932 has 28800 targetid in assoc13.
+3.38
+disable mitosis optimizer pipe
+source 546 has 28800 targetid in assoc13.
+1.91
+
+hot runs no-mitosis
+Total: 2, min: 1.910, avg: 2.645, max: 3.380
+disable mitosis optimizer pipe
+source 14506 has 28800 targetid in assoc13.
+2.17
+disable mitosis optimizer pipe
+source 17169 has 28800 targetid in assoc13.
+1.93
+disable mitosis optimizer pipe
+source 13097 has 28800 targetid in assoc13.
+1.92
+disable mitosis optimizer pipe
+source 25468 has 28800 targetid in assoc13.
+1.93
+disable mitosis optimizer pipe
+source 27223 has 28800 targetid in assoc13.
+1.85
+disable mitosis optimizer pipe
+source 32435 has 28800 targetid in assoc13.
+1.80
+
+4th run: uid=1 and cold mitosis.
+Total: 6, min: 1.800, avg: 1.933, max: 2.170
+vm.swappiness = 0
+stopping database 'gwacdb'... done
+3
+starting database 'gwacdb'... done
+Sat Sep 12 12:01:13 CEST 2015
+
+cold run MTS
+source 1 has 28800 targetid in assoc13.
+2067.67
+
+warm up no-MTS
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+2.70
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+1.42
+
+hot runs no-MTS
+Total: 2, min: 1.420, avg: 2.060, max: 2.700
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+1.53
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+1.33
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+1.18
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+1.65
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+1.20
+disable mitosis optimizer pipe
+source 1 has 28800 targetid in assoc13.
+1.20
+Total: 6, min: 1.180, avg: 1.348, max: 1.650
+
